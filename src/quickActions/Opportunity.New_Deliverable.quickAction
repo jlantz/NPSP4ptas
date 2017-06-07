@@ -16,35 +16,35 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>npsp__Opportunity__c</field>
+                <field>%%%NAMESPACE%%%Opportunity__c</field>
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>npsp__Grant_Deliverable_Requirements__c</field>
+                <field>%%%NAMESPACE%%%Grant_Deliverable_Requirements__c</field>
                 <uiBehavior>Edit</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
         <quickActionLayoutColumns>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>npsp__Type__c</field>
+                <field>%%%NAMESPACE%%%Type__c</field>
                 <uiBehavior>Edit</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>npsp__Grant_Deliverable_Close_Date__c</field>
+                <field>%%%NAMESPACE%%%Grant_Deliverable_Close_Date__c</field>
                 <uiBehavior>Edit</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>npsp__Grant_Deadline_Due_Date__c</field>
+                <field>%%%NAMESPACE%%%Grant_Deadline_Due_Date__c</field>
                 <uiBehavior>Edit</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>
     <standardLabel>New</standardLabel>
-    <targetObject>npsp__Grant_Deadline__c</targetObject>
-    <targetParentField>npsp__Opportunity__c</targetParentField>
+    <targetObject>%%%NAMESPACE%%%Grant_Deadline__c</targetObject>
+    <targetParentField>%%%NAMESPACE%%%Opportunity__c</targetParentField>
     <type>Create</type>
 </QuickAction>

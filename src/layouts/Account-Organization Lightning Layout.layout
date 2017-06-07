@@ -177,49 +177,49 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Company__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Company__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Percent__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Percent__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Administrator_Name__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Administrator_Name__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Email__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Email__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Phone__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Phone__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Comments__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Comments__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Info_Updated__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Info_Updated__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Annual_Employee_Max__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Annual_Employee_Max__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Amount_Max__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Amount_Max__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Amount_Min__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Amount_Min__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Matching_Gift_Request_Deadline__c</field>
+                <field>%%%NAMESPACE%%%Matching_Gift_Request_Deadline__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -275,13 +275,13 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Funding_Focus__c</field>
+                <field>%%%NAMESPACE%%%Funding_Focus__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>npsp__Grantmaker__c</field>
+                <field>%%%NAMESPACE%%%Grantmaker__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -334,19 +334,19 @@
             <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>npsp__NewContact</quickActionName>
+            <quickActionName>%%%NAMESPACE%%%NewContact</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>Account.npsp__Quick_Organization_Update</quickActionName>
+            <quickActionName>Account.%%%NAMESPACE%%%Quick_Organization_Update</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>Account.npsp__New_Affiliation</quickActionName>
+            <quickActionName>Account.%%%NAMESPACE%%%New_Affiliation</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>FeedItem.ContentPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>npsp__NewTask</quickActionName>
+            <quickActionName>%%%NAMESPACE%%%NewTask</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>SendEmail</quickActionName>
@@ -388,18 +388,18 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>npsp__Formula_MailingAddress__c</fields>
-        <fields>npsp__Verified__c</fields>
-        <fields>npsp__Verification_Status__c</fields>
-        <relatedList>npsp__Address__c.npsp__Household_Account__c</relatedList>
+        <fields>%%%NAMESPACE%%%Formula_MailingAddress__c</fields>
+        <fields>%%%NAMESPACE%%%Verified__c</fields>
+        <fields>%%%NAMESPACE%%%Verification_Status__c</fields>
+        <relatedList>%%%NAMESPACE%%%Address__c.%%%NAMESPACE%%%Household_Account__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>npsp__Engagement_Plan_Template__c</fields>
+        <fields>%%%NAMESPACE%%%Engagement_Plan_Template__c</fields>
         <fields>CREATEDBY_USER</fields>
         <fields>LAST_UPDATE</fields>
-        <fields>npsp__Status__c</fields>
-        <relatedList>npsp__Engagement_Plan__c.npsp__Account__c</relatedList>
+        <fields>%%%NAMESPACE%%%Status__c</fields>
+        <relatedList>%%%NAMESPACE%%%Engagement_Plan__c.%%%NAMESPACE%%%Account__c</relatedList>
         <sortField>CREATEDBY_USER</sortField>
         <sortOrder>Desc</sortOrder>
     </relatedLists>

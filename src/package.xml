@@ -15,11 +15,11 @@
         <members>Campaign.NPSP_Compact_Layout</members>
         <members>GW_Volunteers__Volunteer_Job__c.NPSP_Volunteer_Job_Layout</members>
         <members>GW_Volunteers__Volunteer_Shift__c.NPSP_Volunteer_Shift</members>
-        <members>npsp__Allocation__c.NPSP_GAU_Allocation</members>
-        <members>npsp__Engagement_Plan_Template__c.NPSP_Engagement_Plan_Template</members>
-        <members>npsp__Engagement_Plan__c.NPSP_Engagement_Plan</members>
-        <members>npsp__General_Accounting_Unit__c.NPSP_General_Accounting_Unit</members>
-        <members>npsp__Grant_Deadline__c.Deliverable_Layout</members>
+        <members>%%%NAMESPACE%%%Allocation__c.NPSP_GAU_Allocation</members>
+        <members>%%%NAMESPACE%%%Engagement_Plan_Template__c.NPSP_Engagement_Plan_Template</members>
+        <members>%%%NAMESPACE%%%Engagement_Plan__c.NPSP_Engagement_Plan</members>
+        <members>%%%NAMESPACE%%%General_Accounting_Unit__c.NPSP_General_Accounting_Unit</members>
+        <members>%%%NAMESPACE%%%Grant_Deadline__c.Deliverable_Layout</members>
         <name>CompactLayout</name>
     </types>
     <types>
