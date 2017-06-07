@@ -1,0 +1,12 @@
+{
+  "Company": "NPSP for PTAs - Feature Test Org",
+  "Country": "US",
+  "LastName": "Developer",
+  "Email": "jlantz@salesforce.com",
+  "Edition": "Developer",
+  "OrgPreferences" : {
+    "S1DesktopEnabled" : true,
+    "Translation" : true,
+    "ChatterEnabled" : true
+  }
+}
