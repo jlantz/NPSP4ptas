@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>NPSP for PTAs</fullName>
+    <description>Extends the Nonprofit Success Pack to handle use cases specific to Parent/Teacher Associations (PTAs)</description>
+    <types>
+        <members>Opportunity.Donation</members>
+        <members>Opportunity.Grant</members>
+        <members>Opportunity.In-Kind Gift</members>
+        <members>Opportunity.Major Gift</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>Account.NPSP_Household_Account</members>
+        <members>Account.NPSP_Organization_Account</members>
+        <members>Campaign.NPSP_Compact_Layout</members>
+        <members>GW_Volunteers__Volunteer_Job__c.NPSP_Volunteer_Job_Layout</members>
+        <members>GW_Volunteers__Volunteer_Shift__c.NPSP_Volunteer_Shift</members>
+        <members>npsp__Allocation__c.NPSP_GAU_Allocation</members>
+        <members>npsp__Engagement_Plan_Template__c.NPSP_Engagement_Plan_Template</members>
+        <members>npsp__Engagement_Plan__c.NPSP_Engagement_Plan</members>
+        <members>npsp__General_Accounting_Unit__c.NPSP_General_Accounting_Unit</members>
+        <members>npsp__Grant_Deadline__c.Deliverable_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Account.Level__c</members>
+        <members>Account.Previous_Level__c</members>
+        <members>Contact.Gender__c</members>
+        <members>npe01__OppPayment__c.Payment_Status__c</members>
+        <members>npe5__Affiliation__c.Contact_Name__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Account-Household Lightning Layout</members>
+        <members>Account-Organization Lightning Layout</members>
+        <members>Campaign-Volunteers Campaign Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Account.New_Donation</members>
+        <members>Account.New_Grant</members>
+        <members>Account.New_Major_Gift</members>
+        <members>Account.New_Matching_Donation</members>
+        <members>Account.New_Membership</members>
+        <members>Contact.NewDonation</members>
+        <members>Contact.NewMajorGift</members>
+        <members>Contact.NewMembership</members>
+        <members>Contact.New_Open_Recurring_Donation</members>
+        <members>New_Donation</members>
+        <members>New_Grant</members>
+        <members>New_Household_Account</members>
+        <members>New_Organization</members>
+        <members>Opportunity.New_Deliverable</members>
+        <members>SendEmail</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Account.Club</members>
+        <members>Account.Committee</members>
+        <members>Account.Grade_Level</members>
+        <members>Account.HH_Account</members>
+        <members>Account.Organization</members>
+        <members>Campaign.Default</members>
+        <members>Contact.Parent</members>
+        <members>Contact.Student</members>
+        <members>Contact.Supporter</members>
+        <members>Opportunity.Donation</members>
+        <members>Opportunity.Grant</members>
+        <members>Opportunity.In_Kind_Gift</members>
+        <members>Opportunity.MajorGift</members>
+        <members>Opportunity.Matching_Gift</members>
+        <members>Opportunity.Membership</members>
+        <name>RecordType</name>
+    </types>
     <version>39.0</version>
 </Package>

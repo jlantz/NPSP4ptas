@@ -4,7 +4,7 @@
       "Path": "src"
     }
   ],
-  "Namespace": "No namespace",
+  "Namespace": "",
   "SfdcLoginUrl": "https://login.salesforce.com",
   "SourceApiVersion": "39.0"
 }
