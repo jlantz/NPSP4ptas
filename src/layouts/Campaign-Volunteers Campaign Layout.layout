@@ -38,6 +38,14 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>camptools__Campaign_List_Mutex__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>camptools__Campaign_List_Error_Message__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>NumberOfLeads</field>
             </layoutItems>
@@ -221,7 +229,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h50000001SnBC</masterLabel>
+        <masterLabel>00h3D000000G5Sq</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>2</sizeY>
         <summaryLayoutItems>

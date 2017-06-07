@@ -8,13 +8,13 @@ project:
         - github: https://github.com/SalesforceFoundation/Cumulus
           skip:
             - unpackaged/pre/opportunity_record_types
-          unmanaged: True  # Uncomment for unmanaged NPSP deployment
+          #unmanaged: True  # Uncomment for unmanaged NPSP deployment
         # Unmanaged Opportunity RecordTypes from the NPSP Trial template
         - zip_url: https://github.com/SalesforceFoundation/CumulusReports/archive/master.zip
           subfolder: CumulusReports-master/record_types
         # Unmanaged NPSP Reports & Dashboards and all its dependencies
         - github: https://github.com/SalesforceFoundation/CumulusReports
-          namespace_strip: npsp  # Uncomment for unmanaged NPSP deployment
+          #namespace_strip: npsp  # Uncomment for unmanaged NPSP deployment
         # Latest Managed Volunteers for Salesforce release and all its dependencies
         - github: https://github.com/SalesforceFoundation/Volunteers-for-Salesforce
         # Latest Managed Campaign Tools release and all its dependencies
@@ -37,6 +37,11 @@ tasks:
             elements:
                 - path: quickActions/SendEmail.quickAction
                   xpath: '/ns:quickActionLayout/ns:quickActionLayoutColumns/ns:quickActionLayoutItems[ns:field="EmailTemplateId"]'
+
+    deploy:
+        options:
+            namespace_inject: npsp
+
     deploy_pre_dependencies:
         description: Deploys the pre_dependencies metadata
         class_path: cumulusci.tasks.salesforce.Deploy
@@ -56,12 +61,17 @@ tasks:
             package_xml: manifests/pre_dependencies.xml
             path: pre_dependencies
 
+    retrieve_src:
+        options:
+            namespace_tokenize: npsp
+
     retrieve_unpackageable:
         description: Retrieves any unpackageable metadata from the customer org
         class_path: cumulusci.tasks.salesforce.RetrieveUnpackaged
         options:
             package_xml: manifests/unpackageable.xml
             path: unpackageable
+
     testdata_delete:
         description: 'WARNING: Deletes all data in the objects specified in the objects option.'
         class_path: cumulusci.tasks.bulkdata.DeleteData

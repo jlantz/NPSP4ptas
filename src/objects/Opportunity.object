@@ -116,7 +116,7 @@
         <fullName>Donation</fullName>
         <active>true</active>
         <businessProcess>Donation</businessProcess>
-        <compactLayoutAssignment>npsp__NPSP_Donation_Compact_Layout</compactLayoutAssignment>
+        <compactLayoutAssignment>%%%NAMESPACE%%%NPSP_Donation_Compact_Layout</compactLayoutAssignment>
         <description>Donation Received</description>
         <label>Donation</label>
         <picklistValues>
@@ -218,7 +218,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <picklist>%%%NAMESPACE%%%Acknowledgment_Status__c</picklist>
             <values>
                 <fullName>Acknowledged</fullName>
                 <default>false</default>
@@ -241,7 +241,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Tribute_Type__c</picklist>
+            <picklist>%%%NAMESPACE%%%Tribute_Type__c</picklist>
             <values>
                 <fullName>Honor</fullName>
                 <default>false</default>
@@ -357,7 +357,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <picklist>%%%NAMESPACE%%%Acknowledgment_Status__c</picklist>
             <values>
                 <fullName>Acknowledged</fullName>
                 <default>false</default>
@@ -380,7 +380,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Tribute_Type__c</picklist>
+            <picklist>%%%NAMESPACE%%%Tribute_Type__c</picklist>
             <values>
                 <fullName>Honor</fullName>
                 <default>false</default>
@@ -496,7 +496,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <picklist>%%%NAMESPACE%%%Acknowledgment_Status__c</picklist>
             <values>
                 <fullName>Acknowledged</fullName>
                 <default>false</default>
@@ -519,7 +519,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__In_Kind_Type__c</picklist>
+            <picklist>%%%NAMESPACE%%%In_Kind_Type__c</picklist>
             <values>
                 <fullName>Goods</fullName>
                 <default>false</default>
@@ -530,7 +530,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Matching_Gift_Status__c</picklist>
+            <picklist>%%%NAMESPACE%%%Matching_Gift_Status__c</picklist>
             <values>
                 <fullName>Potential</fullName>
                 <default>false</default>
@@ -545,7 +545,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Notification_Preference__c</picklist>
+            <picklist>%%%NAMESPACE%%%Notification_Preference__c</picklist>
             <values>
                 <fullName>Do Not Notify</fullName>
                 <default>false</default>
@@ -564,7 +564,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Tribute_Type__c</picklist>
+            <picklist>%%%NAMESPACE%%%Tribute_Type__c</picklist>
             <values>
                 <fullName>Honor</fullName>
                 <default>false</default>
@@ -680,7 +680,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <picklist>%%%NAMESPACE%%%Acknowledgment_Status__c</picklist>
             <values>
                 <fullName>Acknowledged</fullName>
                 <default>false</default>
@@ -703,7 +703,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Tribute_Type__c</picklist>
+            <picklist>%%%NAMESPACE%%%Tribute_Type__c</picklist>
             <values>
                 <fullName>Honor</fullName>
                 <default>false</default>
@@ -819,7 +819,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <picklist>%%%NAMESPACE%%%Acknowledgment_Status__c</picklist>
             <values>
                 <fullName>Acknowledged</fullName>
                 <default>false</default>
@@ -842,7 +842,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Matching_Gift_Status__c</picklist>
+            <picklist>%%%NAMESPACE%%%Matching_Gift_Status__c</picklist>
             <values>
                 <fullName>Potential</fullName>
                 <default>false</default>
@@ -857,7 +857,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Tribute_Type__c</picklist>
+            <picklist>%%%NAMESPACE%%%Tribute_Type__c</picklist>
             <values>
                 <fullName>Honor</fullName>
                 <default>false</default>
@@ -973,7 +973,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <picklist>%%%NAMESPACE%%%Acknowledgment_Status__c</picklist>
             <values>
                 <fullName>Acknowledged</fullName>
                 <default>false</default>
@@ -996,7 +996,7 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>npsp__Tribute_Type__c</picklist>
+            <picklist>%%%NAMESPACE%%%Tribute_Type__c</picklist>
             <values>
                 <fullName>Honor</fullName>
                 <default>false</default>
